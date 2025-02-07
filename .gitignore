@@ -29,6 +29,17 @@ ipch/
 *.dll
 *.pch
 
-# CMake 관련 파일 무시 (필요하면 주석 해제)
-# CMakeCache.txt
-# CMakeFiles/
+
+
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+x64/
+Debug/
+Release/
+.vs/
+*.exe
+*.obj
+*.pdb
+
