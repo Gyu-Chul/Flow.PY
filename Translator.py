@@ -1,4 +1,0 @@
-def Transition():
-
-
-    return print()
