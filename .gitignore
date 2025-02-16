@@ -1,13 +1,27 @@
+# ------------------------
+# CMake 빌드 산출물 무시
+# ------------------------
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# ------------------------
 # Visual Studio 관련 파일 무시
+# ------------------------
 .vs/
 *.sln
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
 
-# 빌드 관련 파일 무시
-ipch/
+# ------------------------
+# 빌드 아티팩트 무시
+# ------------------------
 *.obj
+*.o
 *.pdb
 *.ilk
 *.idb
@@ -17,29 +31,19 @@ ipch/
 *.opensdf
 *.db
 *.cache
-
-# 개인 설정 파일 무시
 *.ncb
 *.suo
 
-# 바이너리 및 실행 파일 무시
-*.exp
-*.lib
+# ------------------------
+# 실행 & 라이브러리 파일 무시
+# ------------------------
 *.exe
 *.dll
+*.lib
+*.so
+*.exp
+*.out
+*.a
+*.dylib
+*.app
 *.pch
-
-
-
-*.vcxproj
-*.vcxproj.filters
-*.vcxproj.user
-*.sln
-x64/
-Debug/
-Release/
-.vs/
-*.exe
-*.obj
-*.pdb
-
